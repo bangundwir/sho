@@ -13,7 +13,7 @@ let urlData = {};
 try {
     const data = fs.readFileSync('data.json');
     urlData = JSON.parse(data);
-} catch (err) {
+} catch (err) { 
     console.error("Error reading data:", err);
 }
 
